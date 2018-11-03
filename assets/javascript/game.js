@@ -11,14 +11,14 @@ var computerGuessChoice = [];
 window.onload = function () {
     var computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];
     computerGuessChoice.push(computerGuess.toLowerCase());
-    console.log(computerGuess);
+    //console.log(computerGuess);
 
 
 
     document.onkeyup = function (event) {
         var userGuess = event.key;
         userGuessChoice.push(userGuess.toLowerCase());
-        console.log(userGuessChoice);
+        //console.log(userGuessChoice);
 
         if (userGuessChoice == computerGuess) {
             wins++;
@@ -27,7 +27,7 @@ window.onload = function () {
             computerGuessChoice = [];
             computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];
             computerGuessChoice.push(computerGuess.toLowerCase());
-            console.log(computerGuess);
+            //console.log(computerGuess);
         } if (userGuessChoice != computerGuess) {
             guesses--;
         } if (guesses === 0) {
@@ -36,11 +36,11 @@ window.onload = function () {
             userGuessChoice = [];
             computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];
             computerGuessChoice.push(computerGuess.toLowerCase());
-            console.log(computerGuess);
+            //console.log(computerGuess);
 
         } else;
 
-        console.log(guesses);
+        //console.log(guesses);
         document.getElementById("wins-text").innerHTML ="Wins : " + wins;
         document.getElementById("losses-text").innerHTML = "Losses : " + losses;
         document.getElementById("guessesLeft-text").innerHTML = "Guesses Left : " + guesses;
