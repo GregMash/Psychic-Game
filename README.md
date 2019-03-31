@@ -1,5 +1,7 @@
 # Psychic-Game
 
+## Overview
+
 This is a game made using javascript.
 
 The idea is to guess which letter the computer is thinking of. 
@@ -14,3 +16,17 @@ Every time you either guess the correct letter or run out of tries, the game wil
 the computer will have a new letter for you to guess.
 
 Play as many times as you like!
+
+## Screenshot(s)
+<img width="1035" alt="Screen Shot 2019-03-31 at 12 19 02 AM" src="https://user-images.githubusercontent.com/42223683/55286008-9db3c380-534a-11e9-8837-8f4369ec3536.png">
+
+
+## Hosted on GitHub
+
+[Game](https://gregmash.github.io/psychic-game/)
+
+## Technologies utilized
+ - HTML
+ - CSS
+ - Javascript
+
